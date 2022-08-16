@@ -1,10 +1,17 @@
 ﻿namespace C_Sharp_Tutorial
 {
-    public class Program
+    class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world !");
+            var starPatternsProgram = new StarPatternsProgram();
+            starPatternsProgram.RightTrianglePattern();
+            starPatternsProgram.MirroredRightAngleTrianglePattern();
+            starPatternsProgram.DownloadTrianglePattern();
+            starPatternsProgram.DownwardMirroredRightTrianglePattern();
+            starPatternsProgram.HollowRightTrianglePattern();
+            starPatternsProgram.InvertedPyramidOfNumbers();
+            starPatternsProgram.HalfPyramidOfNumbers();
         }
     }
 }
