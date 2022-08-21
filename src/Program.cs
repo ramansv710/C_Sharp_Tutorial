@@ -5,12 +5,12 @@
         static void Main(string[] args)
         {
             var starPatternsProgram = new StarPatternsProgram();
-            starPatternsProgram.RightTrianglePattern();
-            starPatternsProgram.MirroredRightAngleTrianglePattern();
-            starPatternsProgram.DownloadTrianglePattern();
-            starPatternsProgram.DownwardMirroredRightTrianglePattern();
-            starPatternsProgram.HollowRightTrianglePattern();
-            starPatternsProgram.InvertedPyramidOfNumbers();
+            StarPatternsProgram.RightTrianglePattern();
+            StarPatternsProgram.MirroredRightAngleTrianglePattern();
+            StarPatternsProgram.DownwardTrianglePattern();
+            StarPatternsProgram.DownwardMirroredRightTrianglePattern();
+            StarPatternsProgram.HollowRightTrianglePattern();
+            StarPatternsProgram.InvertedPyramidOfNumbers();
             starPatternsProgram.HalfPyramidOfNumbers();
         }
     }
